@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: rgb(129, 12, 238);
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 3em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  section{
+    background: url(./image.jpg)center/100% 100% no-repeat;
+      background-blend-mode:lighten;
+ 
+  }
+  #birthday{ filter:opacity(35%); -webkit-filter:opacity(35%);
+  }
+  audio{
+    margin: auto;
+    text-align: center;
+  }
+  #sec{
+    display: none;
+  }
+  .button{
+    display: flex;
+justify-content: center;
+    
+  }
+  button{
+    background: pink;
+    font-size: 33px;
+    border-radius: 15px;
+transform: translate(10%,500%);
+cursor: pointer;
+padding: 10px;
+  }
+
+  @media  screen and (max-width: 1200px) {
+    h1 {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        font-size: 36px;
+        color: rgb(196, 118, 131);
+    }
+}
